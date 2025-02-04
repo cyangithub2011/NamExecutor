@@ -1,0 +1,19 @@
+/* Glowing Button Styles */
+.cta {
+    display: inline-block;
+    background-color: black;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: black; /* Darker shade on hover */
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan; /* Glowing effect */
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
